@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>txtクイズ</title>
+    <link rel="stylesheet" href="mystyle.css">
+<script src="ex1-2.js"></script>
+<script src="ex1-5.js"></script>
+<script src="ex1-6.js"></script>
+<script src="ex1-7.js"></script>
+  </head>
+  <body>
+<h1>問題1</h1>
+<p>1分以内に答えてください。</p>
+<form><input type="button" value="Timer" onclick="setTimeout('mes()',60000)"></form>
+<p>txtのメンバーは何人でしょう？</p>
+<p>
+<input type="text" id="answer">
+<input type="button" value="解答" onclick="nazo();">
+</p>
+
+<h1>問題2</h1>
+<p>txtは今年でデビュー何年目でしょう？</p>
+<p>
+<input type="text" id="answer16">
+  <input type="button" value="解答" onclick="nazo16();">
+  </p>
+
+  <h1>問題3</h1>
+<p>私の好きなメンバーの名前は何でしょう？</p>
+<p>
+<input type="text" id="answer17">
+  <input type="button" value="解答" onclick="nazo17();">
+  </p>
+
+  </body>
+</html>
